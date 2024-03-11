@@ -9,13 +9,12 @@ export default createGlobalStyle`
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Slab', sans-serif;
       font-size: 1.6rem;
-      color: ${({ theme }) => theme.COLORS.LIGHT_100};
     }
 
     body {
-      background-color: ${({ theme }) => theme.COLORS.DARK_400};
+      background-color: ${({ theme }) => theme.COLORS.DARK};
 
       &::-webkit-scrollbar {
         width: 12px; /* Largura da barra de rolagem inteira */

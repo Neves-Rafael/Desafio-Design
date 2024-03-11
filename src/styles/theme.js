@@ -1,6 +1,10 @@
 export default {
   COLORS: {
-    
+    DARK: "#070707",
+    GRAY: "#ECECEC",
+    WHITE: "#FEFEFE",
+    PRIMARY_100: "#0095DA",
+    PRIMARY_700: "#005B9E",
   },
   
   MEDIA_QUERY:{
