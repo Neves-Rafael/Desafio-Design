@@ -29,7 +29,6 @@ export const Container = styled.div`
     
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.WHITE};
-      opacity: .9;
     }
   }
 

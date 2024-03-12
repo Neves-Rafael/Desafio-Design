@@ -14,8 +14,8 @@ export default createGlobalStyle`
     }
 
     body {
-      background-color: ${({ theme }) => theme.COLORS.DARK};
-
+      background-color: black;
+      
       &::-webkit-scrollbar {
         width: 12px; /* Largura da barra de rolagem inteira */
       }
