@@ -1,9 +1,10 @@
-import { Container, HeaderBottom, HeaderMiddle, HeaderTop } from "./style";
+import { Container, HeaderBottom, HeaderMiddle, HeaderTop, HeaderMobile } from "./style";
 import SenadoNoticiasLogo from "../../assets/senado-logo.svg"
 import SenadoFederalLogo from "../../assets/senado.svg"
 import { SearchInput } from "../SearchInput";
 import { MdSignLanguage } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
+import { IoSearch } from "react-icons/io5";
 
 export function Header(){
 
@@ -48,6 +49,12 @@ export function Header(){
           <a>Serviços</a>
           <a>Expediente</a>
       </HeaderBottom>
+
+      <HeaderMobile>
+        <IoMenu size={32} />
+        <img src={SenadoNoticiasLogo} alt="" />
+        <IoSearch size={22} />
+      </HeaderMobile>
     </Container>
   )
 }

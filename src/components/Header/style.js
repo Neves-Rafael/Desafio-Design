@@ -109,3 +109,24 @@ export const HeaderBottom = styled.div`
   gap: 7.2rem;
   font-weight: 500;
 `;
+
+export const HeaderMobile = styled.div`
+  background-color: ${({theme}) => theme.COLORS.PRIMARY_700};
+  align-items: center;
+  justify-content: space-around;
+  height: 6rem;
+
+  display: none;
+
+  img{
+    height: 2.8rem;
+  }
+
+  path{
+    color: white;
+  }
+
+  @media(max-width: 768px){
+    display: flex;
+  }
+`;
