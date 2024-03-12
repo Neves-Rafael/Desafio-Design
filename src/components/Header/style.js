@@ -10,7 +10,7 @@ export const HeaderTop = styled.div`
   justify-content: center;
 
   #top-content{
-    width: 110rem;
+    width: 120rem;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ export const HeaderMiddle = styled.div`
   justify-content: center;
 
   #middle-content{
-    width: 110rem;
+    width: 120rem;
     height: 10rem;
     display: flex;
     justify-content: space-between;

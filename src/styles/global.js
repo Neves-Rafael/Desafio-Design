@@ -25,7 +25,7 @@ export default createGlobalStyle`
       }
 
       &::-webkit-scrollbar-thumb {
-        background-color: ${({theme}) => theme.COLORS.LIGHT_600}; /* Cor do polegar de rolagem */
+        background-color: ${({theme}) => theme.COLORS.DARK_500}; /* Cor do polegar de rolagem */
         border-radius: 20px; /* Arredondamento do polegar de rolagem */
       }
     }
