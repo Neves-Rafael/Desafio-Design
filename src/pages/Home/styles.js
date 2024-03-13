@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-background-color: black;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
 
   .teste{
-    margin: auto;
-    width: 120rem;
-    margin-top: 8rem;
+    background-color: red;
+    margin: 4rem;
+    max-width: 120rem;
   }
-`
+`;

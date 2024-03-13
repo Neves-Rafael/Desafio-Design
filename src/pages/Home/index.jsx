@@ -12,12 +12,11 @@ export function App() {
     <Container>
       <Header/>
         <div className="teste">
-      <Principal/>
-
+          {/* <Principal/> */}
         </div>
-      <Divider/>
+      {/* <Divider/> */}
       <Footer/>
     </Container>
   )
-}
+};
 

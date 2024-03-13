@@ -54,6 +54,10 @@ export const HeaderTop = styled.div`
       color: ${({theme}) => theme.COLORS.WHITE};
     }
   }
+
+  @media(max-width: 768px){
+    display: none;
+  }
 `;
 
 export const HeaderMiddle = styled.div`
@@ -96,6 +100,10 @@ export const HeaderMiddle = styled.div`
   .search img{
     margin-bottom: 1rem;
   }
+
+  @media(max-width: 768px){
+    display: none;
+  }
 `;
 
 export const HeaderBottom = styled.div`
@@ -108,6 +116,10 @@ export const HeaderBottom = styled.div`
   align-items: center;
   gap: 7.2rem;
   font-weight: 500;
+
+  @media(max-width: 768px){
+    display: none;
+  }
 `;
 
 export const HeaderMobile = styled.div`

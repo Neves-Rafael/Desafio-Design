@@ -10,45 +10,47 @@ export function Header(){
 
   return (
     <Container>
-      <HeaderTop>
-        <div id="top-content">
-          <div className="languages">
-            <a href="#">ENGLISH</a>
-            <a href="#">ESPAÑOL</a>
-            <a href="#">FRANÇAIS</a>
+      <div>
+        <HeaderTop>
+          <div id="top-content">
+            <div className="languages">
+              <a href="#">ENGLISH</a>
+              <a href="#">ESPAÑOL</a>
+              <a href="#">FRANÇAIS</a>
+            </div>
+
+            <div className="accessibility">
+              <p>Segunda, 4 de Março, 2024</p>
+              <MdSignLanguage size={20}/>
+              <a href="#">Acessibilidade</a>
+            </div>
           </div>
+        </HeaderTop>
 
-          <div className="accessibility">
-            <p>Segunda, 4 de Março, 2024</p>
-            <MdSignLanguage size={20}/>
-            <a href="#">Acessibilidade</a>
+        <HeaderMiddle>
+          <div id="middle-content">
+            <div className="Menu">
+              <IoMenu size={32} />
+              <p>Menu</p>
+            </div>
+
+            <img src={SenadoNoticiasLogo} alt="" />
+
+            <div className="search">
+              <img src={SenadoFederalLogo} alt="" />
+              <SearchInput/>
+            </div>
           </div>
-        </div>
-      </HeaderTop>
+        </HeaderMiddle>
 
-      <HeaderMiddle>
-        <div id="middle-content">
-          <div className="Menu">
-            <IoMenu size={32} />
-            <p>Menu</p>
-          </div>
-
-          <img src={SenadoNoticiasLogo} alt="" />
-
-          <div className="search">
-            <img src={SenadoFederalLogo} alt="" />
-            <SearchInput/>
-          </div>
-        </div>
-      </HeaderMiddle>
-
-      <HeaderBottom>
-          <a>Notícias</a>
-          <a>Especiais</a>
-          <a>Fotos</a>
-          <a>Serviços</a>
-          <a>Expediente</a>
-      </HeaderBottom>
+        <HeaderBottom>
+            <a>Notícias</a>
+            <a>Especiais</a>
+            <a>Fotos</a>
+            <a>Serviços</a>
+            <a>Expediente</a>
+        </HeaderBottom>
+      </div>
 
       <HeaderMobile>
         <IoMenu size={32} />

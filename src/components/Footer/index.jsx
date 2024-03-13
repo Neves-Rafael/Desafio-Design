@@ -3,7 +3,6 @@ import { SearchInput } from "../SearchInput"
 import SenadoFederalLogo from "../../assets/senado.svg"
 import { FaWhatsapp, FaInstagram, FaLinkedin, FaFacebook, FaYoutube, FaFlickr, FaTelegram, FaPhoneAlt  } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { IoIosArrowUp } from "react-icons/io";
 
 
 
@@ -11,18 +10,19 @@ export function Footer(){
 
   return(
     <Container>
-      <IoIosArrowUp />
       <div className="footer-content">
         <img src={SenadoFederalLogo} alt="" />
+        <SearchInput/>
         <Links>
-          <a href="#">Notícias</a>
-          <a href="#">Especiais</a>
           <a href="#">Fotos</a>
+          <a href="#">Senado 200 anos</a>
           <a href="#">Serviços</a>
+          <a href="#">Reforma Tributária</a>
           <a href="#">Expediente</a>
           <a href="#">Atos 8 de janeiro</a>
-          <a href="#">Reforma Tributária</a>
-          <a href="#">Senado 200 anos</a>
+          <a href="#">Notícias</a>
+          <a href="#">Especiais</a>
+          <img className="senado-logo" src={SenadoFederalLogo} alt="" />
         </Links>
 
         <Social>
