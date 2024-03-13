@@ -7,7 +7,15 @@ export const Container = styled.div`
 
   .teste{
     background-color: red;
-    margin: 4rem;
+    margin: 4rem 2rem ;
     max-width: 120rem;
+
+    @media(min-width: 768px){
+      margin: 4rem
+    }
+
+    @media(min-width: 1240px){
+      margin: 4rem auto;
+    }
   }
 `;

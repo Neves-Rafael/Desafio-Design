@@ -23,29 +23,31 @@ export function Principal(){
         </div>
       </NoticeFirst>
 
-      <NoticeSecond>
-        <div className="notice-text">
-            <h2>Plenário fará sessão temática sobre retomada de tributos ao setor de eventos</h2>
+      <div className="notice-row">
+        <NoticeSecond>
+          <div className="notice-text">
+              <h2>Plenário fará sessão temática sobre retomada de tributos ao setor de eventos</h2>
 
-            <p>O Senado promove na terça-feira (5), a partir das 10h, sessão temática no Plenário para debater os impactos que a extinção do Programa Emergencial de Retomada do Setor de Eventos (Perse) pode causar no setor hoteleiro. O programa foi criado pela Lei 14.148, de 2021, para conceder benefícios tributários ao setor de eventos, que foi prejudicado pela pandemia da covid-19.</p>
-        </div>
+              <p>O Senado promove na terça-feira (5), a partir das 10h, sessão temática no Plenário para debater os impactos que a extinção do Programa Emergencial de Retomada do Setor de Eventos (Perse) pode causar no setor hoteleiro. O programa foi criado pela Lei 14.148, de 2021, para conceder benefícios tributários ao setor de eventos, que foi prejudicado pela pandemia da covid-19.</p>
+          </div>
 
-        <div className="notice-image">
-          <img src={Notice2} alt="" />
-        </div>
-      </NoticeSecond>
+          <div className="notice-image">
+            <img src={Notice2} alt="" />
+          </div>
+        </NoticeSecond>
 
-      <NoticeThird>
-        <div className="notice-image">
-          <img src={Notice3} alt="" />
-        </div>
+        <NoticeThird>
+          <div className="notice-image">
+            <img src={Notice3} alt="" />
+          </div>
 
-        <div className="notice-text">
-          <h2>Senado entrega Diploma Bertha Lutz na quarta-feira.</h2>
+          <div className="notice-text">
+            <h2>Senado entrega Diploma Bertha Lutz na quarta-feira.</h2>
 
-          <p>O Senado homenageia cinco mulheres em sessão solene, na quarta-feira (6), com a entrega do Diploma Mulher-Cidadã Bertha Lutz.</p>
-        </div>
-      </NoticeThird>
+            <p>O Senado homenageia cinco mulheres em sessão solene, na quarta-feira (6), com a entrega do Diploma Mulher-Cidadã Bertha Lutz.</p>
+          </div>
+        </NoticeThird>
+      </div>
     </Container>
   )
 };
