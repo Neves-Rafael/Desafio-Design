@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   background-color: ${({theme}) => theme.COLORS.DARK_500};
+  padding: 0 4rem;
 
   img:nth-child(1){
     margin: 4rem 0 4rem 0;
     width: 20rem;
 
-    @media(max-width: 768px){
+    @media(max-width: 1024px){
       display: none;
     }
   }
@@ -37,15 +38,20 @@ export const Container = styled.footer`
         }
       }
 
-      @media(min-width: 425px){
+      @media(min-width: 500px){
         width: 40rem;
       }
 
-      @media(min-width: 768px){
+      @media(min-width: 1024px){
         display: none;
       }
     }
   }
+
+  @media(min-width: 1240px){
+    padding: 0;
+  }
+
 `;
 
 export const Links = styled.div`
@@ -62,12 +68,12 @@ export const Links = styled.div`
     margin: 2rem 0 0 0;
     width: 20rem; 
 
-    @media(min-width: 768px){
+    @media(min-width: 1024px){
     display: none;
     }
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 1024px){
     flex-direction: column;
     text-align: center;
   }
@@ -99,7 +105,7 @@ export const Social = styled.div`
       }
     }
 
-    @media(max-width: 768px){
+    @media(max-width: 1024px){
         display: none;
     }
   }
@@ -121,7 +127,7 @@ export const Social = styled.div`
     }
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 1024px){
     flex-direction: column;
     border: none;
     margin: 4rem 0 0 0;
@@ -140,7 +146,7 @@ export const InfoContact = styled.div`
     a{
       font-weight: 400;
 
-      @media(max-width: 768px){
+      @media(max-width: 1024px){
         font-size: 1.4rem;
         margin-bottom: 2rem;
       }

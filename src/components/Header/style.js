@@ -8,6 +8,7 @@ export const HeaderTop = styled.div`
   background-color: ${({theme}) => theme.COLORS.PRIMARY_700};
   display: flex;
   justify-content: center;
+  padding: 0 4rem;
 
   #top-content{
     width: 120rem;
@@ -58,12 +59,16 @@ export const HeaderTop = styled.div`
   @media(max-width: 768px){
     display: none;
   }
+  @media(min-width: 1240px){
+    padding: 0;
+  }
 `;
 
 export const HeaderMiddle = styled.div`
   background-color: ${({theme}) => theme.COLORS.PRIMARY_100};
   display: flex;
   justify-content: center;
+  padding: 0 4rem;
 
   #middle-content{
     width: 120rem;
@@ -101,8 +106,12 @@ export const HeaderMiddle = styled.div`
     margin-bottom: 1rem;
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 868px){
     display: none;
+  }
+
+  @media(min-width: 1240px){
+    padding: 0;
   }
 `;
 
@@ -117,7 +126,7 @@ export const HeaderBottom = styled.div`
   gap: 7.2rem;
   font-weight: 500;
 
-  @media(max-width: 768px){
+  @media(max-width: 868px){
     display: none;
   }
 `;
@@ -138,7 +147,7 @@ export const HeaderMobile = styled.div`
     color: white;
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 868px){
     display: flex;
   }
 `;
