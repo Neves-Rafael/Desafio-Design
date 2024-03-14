@@ -112,7 +112,7 @@ export const NoticeSecond = styled.div`
     }
 
     h2{
-      font-size: 2.4rem;
+    font-size: 2.4rem;
 
       @media(min-width: 768px){
         margin-bottom: 2.2rem;
