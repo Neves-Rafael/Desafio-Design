@@ -16,7 +16,7 @@ export const Container = styled.div`
     @media(min-width: 768px){
       max-width: 36rem;
       margin-left: 4rem;
-  }
+    }
   }
 `;
 
@@ -67,23 +67,21 @@ export const NoticeSecond = styled.div`
   flex-direction: column;
 
   .notice-text{
-    padding: 2.2rem;
+    padding: 1rem;
 
     h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     }
   }
 
   .notice-image{
-    width: 100%;
-
     img{
       object-fit: cover;
       width: 100%;
       height: 22rem;
       
       @media(min-width: 768px){
-        height: 100%;
+        height: 20rem;
       }
     }
   }
@@ -95,24 +93,16 @@ export const NoticeThird = styled.div`
   flex-direction: column;
 
   .notice-text{
-    padding: 2.2rem;
+    padding: 1rem;
 
     h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     }
   }
 
-  .notice-image{
-    width: 100%;
-
-    img{
+  .notice-image img{
       object-fit: cover;
       width: 100%;
       height: 22rem;
-      
-      @media(min-width: 768px){
-        height: 100%;
-      }
-    }
   }
 `;

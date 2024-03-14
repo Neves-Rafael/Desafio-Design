@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   
   @media(min-width: 768px){
     flex-wrap: wrap;
@@ -14,80 +14,35 @@ export const Container = styled.div`
     gap: 4rem;
 
     @media(min-width: 1024px){
-      flex-direction: row;
+      flex-direction: row-reverse;
   }
 }
 `;
 
 export const NoticeFirst = styled.div`
-  width: 100%;
-
   background-color: ${({theme}) => theme.COLORS.WHITE};
-
+  width: 100%;
   display: flex;
   flex-direction: column-reverse;
-  margin-bottom: 4rem;
-
-  @media(min-width: 768px){
-    flex-direction: row;
-  }
+  margin-top: 4rem;
 
   .notice-text{
-    padding: 2.2rem;
-
-    @media(min-width: 768px){
-      width: 50%;
-    }
+    padding: 1rem;
 
     h2{
       font-size: 2.4rem;
       
       @media(min-width: 768px){
-        margin-bottom: 2rem;
-        font-size: 3.2rem;
-      }
-    }
-
-    p{
-      display: none;
-
-      @media(min-width: 768px){
-        display: block;
-        font-size: 1.2rem;
-      }
-
-      @media(min-width: 1024px){
-        font-size: 1.6rem;
-      }
-    }
-
-    p + p{  
-      &::before{
-        content: "";
-        height: 2px;
-        width: 100%;
-        display: block;
-        background-color: gray;
-        margin: 2rem 0;
+        font-size: 2.4rem;
       }
     }
   }
 
-  .notice-image{ 
-    @media(min-width: 768px){
-      width: 50%;
-    }
-
-    img{
+  .notice-image img{
       object-fit: cover;
       width: 100%;
       height: 22rem;
-
-      @media(min-width: 768px){
-        height: 100%;
-      }
     }
-  }
 `;
 
 export const NoticeSecond = styled.div`
@@ -95,28 +50,18 @@ export const NoticeSecond = styled.div`
   display: flex;
   flex-direction: column-reverse;
 
-
-  @media(min-width: 768px){
-    flex-direction: row;
-  }
-
   @media(min-width: 1024px){
     max-width: 80rem;
   }
 
   .notice-text{
-    padding: 2.2rem;
-
-    @media(min-width: 768px){
-      width: 50%;
-    }
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
 
     h2{
-    font-size: 2.4rem;
-
-      @media(min-width: 768px){
-        margin-bottom: 2.2rem;
-      }
+      font-size: 2.4rem;
     }
 
     p{
@@ -128,23 +73,11 @@ export const NoticeSecond = styled.div`
     }
   }
 
-  .notice-image{
-    width: 100%;
-
-    @media(min-width: 768px){
-      width: 50%;
-    }
-
-    img{
+  .notice-image img{
       object-fit: cover;
       width: 100%;
-      height: 22rem;
-      
-      @media(min-width: 768px){
-        height: 100%;
-      }
+      height: 24rem;
     }
-  }
 `;
 
 export const NoticeThird = styled.div`
@@ -160,14 +93,13 @@ export const NoticeThird = styled.div`
   }
 
   .notice-text{
-    padding: 2.2rem;
+    padding: 1rem;
 
     h2{
       font-size: 2.4rem;
 
       @media(min-width: 1024px){
-        font-size: 2.2rem;
-        margin-bottom: 2.2rem;
+        font-size: 2rem;
       }
     }
 
@@ -180,18 +112,10 @@ export const NoticeThird = styled.div`
     }
   }
 
-  .notice-image{
-    flex: 1;
-    
-    img{
+  .notice-image img{
       object-fit: cover;
+      height: 100%;
       width: 100%;
-      height: 22rem;
-      
-      @media(min-width: 1024px){
-        width: 36rem;
-        height: 100%;
-      }
     }
-  }
+  
 `;

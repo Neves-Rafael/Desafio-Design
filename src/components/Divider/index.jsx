@@ -4,7 +4,7 @@ export function Divider(){
 
   return(
     <Container>
-      <p>Separador</p>
+      <p>Especiais</p>
       <div></div>
     </Container>
   )

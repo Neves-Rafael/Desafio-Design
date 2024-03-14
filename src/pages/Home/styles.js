@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   main{
-    margin: 4rem 2rem ;
+    margin: 6rem 2rem ;
     max-width: 120rem;
 
     @media(min-width: 768px){
@@ -13,7 +13,7 @@ export const Container = styled.div`
     }
 
     @media(min-width: 1240px){
-      margin: 4rem auto;
+      margin: 8rem auto;
     }
   }
 `;

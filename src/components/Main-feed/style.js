@@ -44,7 +44,6 @@ export const NoticeFirst = styled.div`
       
       @media(min-width: 768px){
         margin-bottom: 2rem;
-        font-size: 3.2rem;
       }
     }
 
@@ -160,14 +159,14 @@ export const NoticeThird = styled.div`
   }
 
   .notice-text{
-    padding: 2.2rem;
+    padding: 1rem;
 
     h2{
       font-size: 2.4rem;
 
       @media(min-width: 1024px){
         font-size: 2.2rem;
-        margin-bottom: 2.2rem;
+        margin-bottom: 1rem;
       }
     }
 
@@ -190,7 +189,7 @@ export const NoticeThird = styled.div`
       
       @media(min-width: 1024px){
         width: 36rem;
-        height: 100%;
+        height: 20rem;
       }
     }
   }

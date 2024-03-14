@@ -14,7 +14,7 @@ export default createGlobalStyle`
     }
 
     body {
-      background-color: black;
+      background-color: ${({theme}) => theme.COLORS.GRAY};
       
       &::-webkit-scrollbar {
         width: 12px; /* Largura da barra de rolagem inteira */
@@ -25,8 +25,7 @@ export default createGlobalStyle`
       }
 
       &::-webkit-scrollbar-thumb {
-        background-color: ${({theme}) => theme.COLORS.DARK_500}; /* Cor do polegar de rolagem */
-        border-radius: 20px; /* Arredondamento do polegar de rolagem */
+        background-color: gray;
       }
     }
 

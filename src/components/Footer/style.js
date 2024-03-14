@@ -117,6 +117,16 @@ export const Social = styled.div`
     color: white
   }
 
+  .social-content{
+    display: block;
+    align-items: center;
+    gap: 2rem;
+    
+    @media(min-width: 1024px){
+      display: flex;
+    }
+  }
+
   .icon-social{
     display: flex;
     gap: 1.4rem;
@@ -124,6 +134,10 @@ export const Social = styled.div`
 
     path{
       color: white
+    }
+
+    @media(min-width: 1024px){
+      margin-top: 0;
     }
   }
 

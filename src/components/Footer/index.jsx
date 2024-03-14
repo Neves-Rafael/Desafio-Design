@@ -27,7 +27,7 @@ export function Footer(){
 
         <Social>
           <SearchInput/>
-          <div>
+          <div className="social-content">
             <p>Siga o Senado</p>
             <div className="icon-social">
               <FaFacebook size={25}/>
