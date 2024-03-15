@@ -35,7 +35,7 @@ export function ThirdFeed(){
           </div>
 
           <div className="notice-text">
-            <h2>Poucos profissionais monitoravam minas em Maceió, diz depoente à CPI</h2>
+            <h2>Poucos profissionais monitoravam minas em Maceió, diz depoente</h2>
           </div>
         </NoticeThird>
       </div>

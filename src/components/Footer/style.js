@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   background-color: ${({theme}) => theme.COLORS.DARK_500};
-  padding: 0 4rem;
+  padding: 0 2rem;
 
-  
   @media(min-width: 1240px){
     padding: 0;
   }
@@ -186,26 +185,27 @@ export const InfoContact = styled.div`
     color: white;
     font-family: "Poppins";
     font-weight: 500;
+    text-align: center;
   }
 `;
 
 export const Address = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-between;
   margin: 2.4rem 0 5rem 0;
   font-weight: 500;
   color: white;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
   
   p{
     font-family: "Poppins";
     font-size: 1.4rem;
   }
 
-  @media(max-width: 1024px){
-    flex-direction: column;
-    text-align: center;
-    padding: 0 2rem;
-    gap: 2rem;
+  @media(min-width: 1024px){
+    justify-content: space-between;
+    flex-direction: row;
   }
 `;
