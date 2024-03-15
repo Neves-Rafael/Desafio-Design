@@ -120,17 +120,22 @@ export const HeaderBottom = styled.div`
   background-color: ${({theme}) => theme.COLORS.PRIMARY_700};
   color: ${({theme}) => theme.COLORS.WHITE};
   height: 3rem;
-  
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7.2rem;
   font-weight: 500;
+  
+    @media(max-width: 868px){
+      display: none;
+    }
 
-  @media(max-width: 868px){
-    display: none;
-  }
-`;
+    a:hover{
+
+        color: black;
+      
+    }
+  `;
 
 export const HeaderMobile = styled.div`
   background-color: ${({theme}) => theme.COLORS.PRIMARY_700};

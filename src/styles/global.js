@@ -44,8 +44,12 @@ export default createGlobalStyle`
       border: none;
     }
 
-    button:hover, a:hover {
+    h2, img{
+      cursor: pointer;
+    }
+
+    button:hover, a:hover, h2:hover {
       transition: all 200ms ease-in-out;
-      filter: brightness(1.5);
+      color: ${({theme}) => theme.COLORS.PRIMARY_700};
     }    
 `;
