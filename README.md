@@ -11,7 +11,7 @@ Antes de começar, certifique-se de ter instalado todas as seguintes ferramentas
 Para baixar o repositório, execute o seguinte comando no terminal:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Neves-Rafael/Desafio-Design.git
 ```
 
 Instalação de dependências:
