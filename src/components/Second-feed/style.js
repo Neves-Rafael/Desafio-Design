@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
 
   @media(min-width: 768px){
-      flex-direction: row;
+    flex-direction: row;
   }
 
   .notice-row{
@@ -18,6 +18,13 @@ export const Container = styled.div`
       margin-left: 4rem;
     }
   }
+
+  .copy-2{
+    margin-top: 4rem;
+    @media(min-width: 768px){
+      margin-top: 0;
+    }
+  }
 `;
 
 export const NoticeFirst = styled.div`
@@ -27,6 +34,7 @@ export const NoticeFirst = styled.div`
   position: relative;
   height: 40rem;
   margin-bottom: 4rem;
+  background-color: red;
 
   @media(min-width: 768px){
     height: auto;
@@ -39,20 +47,26 @@ export const NoticeFirst = styled.div`
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 2.2rem;
 
     h2{
-      font-size: 2.4rem;
+      font-size: 1.6rem;
       color:white;
+      padding: 2.2rem;
 
       @media(min-width: 768px){
-        font-size: 3.2rem;
-        padding: 4rem 2.2rem 4rem 2.2rem;
+        font-size: 2rem;
+        padding: 2.2rem;
+      }
+      
+      @media(min-width: 1000px){
+        font-size: 2.8rem;
+        padding: 4rem;
       }
     }
   }
 
   .notice-image{ 
+    width: 100%;
     img{
       object-fit: cover;
       width: 100%;
@@ -70,7 +84,11 @@ export const NoticeSecond = styled.div`
     padding: 1rem;
 
     h2{
-    font-size: 2rem;
+      font-size: 1.6rem;
+      
+      @media(min-width: 1024px){
+        font-size: 2rem;
+      }
     }
   }
 
@@ -96,7 +114,11 @@ export const NoticeThird = styled.div`
     padding: 1rem;
 
     h2{
-    font-size: 2rem;
+      font-size: 1.6rem;
+      
+      @media(min-width: 1024px){
+        font-size: 2rem;
+      }
     }
   }
 

@@ -10,6 +10,14 @@ export const HeaderTop = styled.div`
   justify-content: center;
   padding: 0 4rem;
 
+  
+  @media(max-width: 768px){
+    display: none;
+  }
+  @media(min-width: 1240px){
+    padding: 0;
+  }
+
   #top-content{
     width: 120rem;
     justify-content: space-between;
@@ -55,13 +63,6 @@ export const HeaderTop = styled.div`
       color: ${({theme}) => theme.COLORS.WHITE};
     }
   }
-
-  @media(max-width: 768px){
-    display: none;
-  }
-  @media(min-width: 1240px){
-    padding: 0;
-  }
 `;
 
 export const HeaderMiddle = styled.div`
@@ -69,6 +70,14 @@ export const HeaderMiddle = styled.div`
   display: flex;
   justify-content: center;
   padding: 0 4rem;
+
+  @media(max-width: 868px){
+    display: none;
+  }
+
+  @media(min-width: 1240px){
+    padding: 0;
+  }
 
   #middle-content{
     width: 120rem;
@@ -105,14 +114,6 @@ export const HeaderMiddle = styled.div`
   .search img{
     margin-bottom: 1rem;
   }
-
-  @media(max-width: 868px){
-    display: none;
-  }
-
-  @media(min-width: 1240px){
-    padding: 0;
-  }
 `;
 
 export const HeaderBottom = styled.div`
@@ -136,7 +137,6 @@ export const HeaderMobile = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 6rem;
-
   display: none;
 
   img{

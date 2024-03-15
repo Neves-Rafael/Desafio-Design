@@ -33,17 +33,19 @@ export const NoticeFirst = styled.div`
   }
 
   .notice-text{
-    padding: 2.2rem;
-
+    padding: 1rem;
+    
     @media(min-width: 768px){
+      padding: 2.2rem;
       width: 50%;
     }
 
     h2{
-      font-size: 2.4rem;
+      font-size: 1.6rem;
       
       @media(min-width: 768px){
         margin-bottom: 2rem;
+        font-size: 2.4rem;
       }
     }
 
@@ -94,7 +96,6 @@ export const NoticeSecond = styled.div`
   display: flex;
   flex-direction: column-reverse;
 
-
   @media(min-width: 768px){
     flex-direction: row;
   }
@@ -104,17 +105,19 @@ export const NoticeSecond = styled.div`
   }
 
   .notice-text{
-    padding: 2.2rem;
-
+    padding: 1rem;
+    
     @media(min-width: 768px){
       width: 50%;
+      padding: 2.2rem;
     }
 
     h2{
-    font-size: 2.4rem;
-
+    font-size: 1.6rem;
+    
       @media(min-width: 768px){
         margin-bottom: 2.2rem;
+        font-size: 2.4rem;
       }
     }
 
@@ -123,12 +126,19 @@ export const NoticeSecond = styled.div`
 
       @media(min-width: 768px){
         display: block;
+        font-size: 1.2rem;
+      }
+      
+      @media(min-width: 1024px){
+        display: block;
+        font-size: 1.6rem;
       }
     }
   }
 
   .notice-image{
     width: 100%;
+    position: relative;
 
     @media(min-width: 768px){
       width: 50%;
@@ -140,7 +150,9 @@ export const NoticeSecond = styled.div`
       height: 22rem;
       
       @media(min-width: 768px){
+        position: absolute;
         height: 100%;
+        inset: 0;
       }
     }
   }
@@ -162,10 +174,10 @@ export const NoticeThird = styled.div`
     padding: 1rem;
 
     h2{
-      font-size: 2.4rem;
+      font-size: 1.6rem;
 
       @media(min-width: 1024px){
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
       }
     }
@@ -189,7 +201,7 @@ export const NoticeThird = styled.div`
       
       @media(min-width: 1024px){
         width: 36rem;
-        height: 20rem;
+        height: 100%;
       }
     }
   }

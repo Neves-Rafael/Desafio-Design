@@ -4,6 +4,11 @@ export const Container = styled.footer`
   background-color: ${({theme}) => theme.COLORS.DARK_500};
   padding: 0 4rem;
 
+  
+  @media(min-width: 1240px){
+    padding: 0;
+  }
+
   img:nth-child(1){
     margin: 4rem 0 4rem 0;
     width: 20rem;
@@ -21,13 +26,20 @@ export const Container = styled.footer`
     margin: auto;
 
     >div:nth-child(2){
+      background-color: ${({theme}) => theme.COLORS.GRAY};
+      color: ${({theme}) => theme.COLORS.DARK_900};
       height: 4rem;
       width: 28rem;
       gap: 1.2rem;
-      background-color: ${({theme}) => theme.COLORS.GRAY};
       margin: 4rem 0;
 
-      color: ${({theme}) => theme.COLORS.DARK_900};
+      @media(min-width: 500px){
+        width: 40rem;
+      }
+
+      @media(min-width: 1024px){
+        display: none;
+      }
       
       input{
         padding-left: 0;
@@ -37,21 +49,8 @@ export const Container = styled.footer`
           color: ${({theme}) => theme.COLORS.DARK_900};
         }
       }
-
-      @media(min-width: 500px){
-        width: 40rem;
-      }
-
-      @media(min-width: 1024px){
-        display: none;
-      }
     }
   }
-
-  @media(min-width: 1240px){
-    padding: 0;
-  }
-
 `;
 
 export const Links = styled.div`
@@ -88,6 +87,12 @@ export const Social = styled.div`
   align-items: center;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
+
+  @media(max-width: 1024px){
+    flex-direction: column;
+    border: none;
+    margin: 4rem 0 0 0;
+  }
 
   >div:nth-child(1){
     height: 4rem;
@@ -140,18 +145,18 @@ export const Social = styled.div`
       margin-top: 0;
     }
   }
-
-  @media(max-width: 1024px){
-    flex-direction: column;
-    border: none;
-    margin: 4rem 0 0 0;
-  }
 `;
 
 export const InfoContact = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media(max-width: 768px){
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 
   div:first-child{
     display: flex;
@@ -182,12 +187,6 @@ export const InfoContact = styled.div`
     font-family: "Poppins";
     font-weight: 500;
   }
-
-  @media(max-width: 768px){
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
 `;
 
 export const Address = styled.div`

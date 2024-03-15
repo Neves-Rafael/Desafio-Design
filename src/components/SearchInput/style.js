@@ -31,5 +31,4 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }
-
-`
+`;

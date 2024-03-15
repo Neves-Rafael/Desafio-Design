@@ -8,13 +8,14 @@ export function ThirdFeed(){
   return(
     <Container>
       <NoticeFirst>
+        <div className="notice-image">
+          <img src={Notice8} alt="" />
+        </div>
+        
         <div className="notice-text">
           <h2>Mudanças climáticas ameaçam a Caatinga com desertificação e perda de espécies</h2>
         </div>
 
-        <div className="notice-image">
-          <img src={Notice8} alt="" />
-        </div>
       </NoticeFirst>
 
       <div className="notice-row">

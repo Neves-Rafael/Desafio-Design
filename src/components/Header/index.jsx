@@ -7,10 +7,9 @@ import { IoMenu } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 
 export function Header(){
-
   return (
     <Container>
-      <div>
+      <div className="header-content">
         <HeaderTop>
           <div id="top-content">
             <div className="languages">
@@ -59,4 +58,4 @@ export function Header(){
       </HeaderMobile>
     </Container>
   )
-}
+};

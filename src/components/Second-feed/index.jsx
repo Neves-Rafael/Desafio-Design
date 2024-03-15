@@ -22,7 +22,7 @@ export function SecondFeed(){
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentNotice(prevNotice => (prevNotice + 1) % notice.length);
-    }, 10000);
+    }, 10000); //10seg
 
     return () => clearInterval(intervalId);
   }, []);
@@ -61,7 +61,7 @@ export function SecondFeed(){
         </NoticeThird>
       </div>
 
-      <div className="notice-row">
+      <div className="notice-row copy-2">
         <NoticeSecond>
           <div className="notice-image">
             <img src={Notice5} alt="" />

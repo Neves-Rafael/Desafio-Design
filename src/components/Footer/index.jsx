@@ -4,10 +4,7 @@ import SenadoFederalLogo from "../../assets/senado.svg"
 import { FaWhatsapp, FaInstagram, FaLinkedin, FaFacebook, FaYoutube, FaFlickr, FaTelegram, FaPhoneAlt  } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
-
-
 export function Footer(){
-
   return(
     <Container>
       <div className="footer-content">

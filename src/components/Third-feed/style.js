@@ -13,7 +13,7 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 4rem;
 
-    @media(min-width: 1024px){
+    @media(min-width: 768px){
       flex-direction: row-reverse;
   }
 }
@@ -23,14 +23,14 @@ export const NoticeFirst = styled.div`
   background-color: ${({theme}) => theme.COLORS.WHITE};
   width: 100%;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   margin-top: 4rem;
 
   .notice-text{
     padding: 1rem;
 
     h2{
-      font-size: 2.4rem;
+      font-size: 1.6rem;
       
       @media(min-width: 768px){
         font-size: 2.4rem;
@@ -38,11 +38,15 @@ export const NoticeFirst = styled.div`
     }
   }
 
-  .notice-image img{
+  .notice-image {
+    height: 22rem;
+
+    img{
       object-fit: cover;
       width: 100%;
-      height: 22rem;
+      height: 100%;
     }
+  }
 `;
 
 export const NoticeSecond = styled.div`
@@ -61,7 +65,11 @@ export const NoticeSecond = styled.div`
     align-items: center;
 
     h2{
-      font-size: 2.4rem;
+      font-size: 1.6rem;
+      @media(min-width: 1024px){
+        display: block;
+        font-size: 2rem;
+      }
     }
 
     p{
@@ -73,11 +81,13 @@ export const NoticeSecond = styled.div`
     }
   }
 
-  .notice-image img{
+  .notice-image {
+    height: 22rem;
+    img{
       object-fit: cover;
       width: 100%;
-      height: 24rem;
-    }
+      height: 100%;
+    }}
 `;
 
 export const NoticeThird = styled.div`
@@ -88,7 +98,7 @@ export const NoticeThird = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  @media(min-width: 1024px){
+  @media(min-width: 768px){
     max-width: 36rem;
   }
 
@@ -96,7 +106,7 @@ export const NoticeThird = styled.div`
     padding: 1rem;
 
     h2{
-      font-size: 2.4rem;
+      font-size: 1.6rem;
 
       @media(min-width: 1024px){
         font-size: 2rem;
@@ -112,10 +122,13 @@ export const NoticeThird = styled.div`
     }
   }
 
-  .notice-image img{
+  .notice-image {
+    height: 22rem;
+
+    img{
       object-fit: cover;
       height: 100%;
       width: 100%;
     }
-  
+  }
 `;
