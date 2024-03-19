@@ -19,7 +19,7 @@ export function MainFeed(){
         </div>
 
         <div className="notice-image">
-          <img src={Notice1} alt="" />
+          <img src={Notice1} alt="Interior do plenário com pessoas ao centro debatendo, as fileiras de assentos azuis estão organizadas em linhas retas, algumas pessoas estão sentadas enquanto outras estão em pé." />
         </div>
       </NoticeFirst>
 
@@ -32,13 +32,13 @@ export function MainFeed(){
           </div>
 
           <div className="notice-image">
-            <img src={Notice2} alt="" />
+            <img src={Notice2} alt="Pessoas estão dispersas, sentadas em assentos azuis organizados em linhas retas. Algumas estão sentadas, enquanto outras estão em pé, conversando ou se movendo pelo local." />
           </div>
         </NoticeSecond>
 
         <NoticeThird>
           <div className="notice-image">
-            <img src={Notice3} alt="" />
+            <img src={Notice3} alt="Interior do plenário com pessoas em seus acentos  durante uma sessão." />
           </div>
 
           <div className="notice-text">

@@ -11,10 +11,12 @@ export function SecondFeed(){
     {
       text: "Plenário fará sessão temática sobre retomada de tributos ao setor de eventos",
       image: Notice2,
+      alt: "Pessoas estão dispersas, sentadas em assentos azuis organizados em linhas retas. Algumas estão sentadas, enquanto outras estão em pé, conversando ou se movendo pelo local."
     },
     {
       text: "CDH fará audiência sobre Missão Josué de Castro, de combate à fome",
       image: Notice5,
+      alt: "Pessoas debatendo durante uma sessão utilizando computador em mesas organizadas em linhas retas."
     },
   ];
 
@@ -35,14 +37,14 @@ export function SecondFeed(){
         </div>
 
         <div className="notice-image">
-          <img src={notice[currentNotice].image} alt="" />
+          <img src={notice[currentNotice].image} alt={notice[currentNotice].alt} />
         </div>
       </NoticeFirst>
 
       <div className="notice-row">
         <NoticeSecond>
           <div className="notice-image">
-            <img src={Notice5} alt="" />
+            <img src={Notice5} alt="Pessoas debatendo durante uma sessão utilizando computador em mesas organizadas em linhas retas." />
           </div>
 
           <div className="notice-text">
@@ -52,7 +54,7 @@ export function SecondFeed(){
 
         <NoticeThird>
           <div className="notice-image">
-            <img src={Notice6} alt="" />
+            <img src={Notice6} alt="Pessoas debatendo durante uma sessão utilizando computador em mesas organizadas em linhas retas." />
           </div>
 
           <div className="notice-text">
@@ -64,7 +66,7 @@ export function SecondFeed(){
       <div className="notice-row copy-2">
         <NoticeSecond>
           <div className="notice-image">
-            <img src={Notice5} alt="" />
+            <img src={Notice5} alt="Pessoas debatendo durante uma sessão utilizando computador em mesas organizadas em linhas retas." />
           </div>
 
           <div className="notice-text">
@@ -74,7 +76,7 @@ export function SecondFeed(){
 
         <NoticeThird>
           <div className="notice-image">
-            <img src={Notice6} alt="" />
+            <img src={Notice6} alt="Pessoas debatendo durante uma sessão utilizando computador em mesas organizadas em linhas retas." />
           </div>
 
           <div className="notice-text">

@@ -9,7 +9,7 @@ export function ThirdFeed(){
     <Container>
       <NoticeFirst>
         <div className="notice-image">
-          <img src={Notice8} alt="" />
+          <img src={Notice8} alt="Ilustração que representar o serrado e a desertificação e perda das espécies." />
         </div>
         
         <div className="notice-text">
@@ -25,13 +25,13 @@ export function ThirdFeed(){
           </div>
 
           <div className="notice-image">
-            <img src={Notice7} alt="" />
+            <img src={Notice7} alt="Mosquito da dengue com um zoom mostrando em detalhes quais as características do mosquito." />
           </div>
         </NoticeSecond>
 
         <NoticeThird>
           <div className="notice-image">
-            <img src={Notice6} alt="" />
+            <img src={Notice6} alt="Interior do plenário com pessoas ao centro debatendo, as fileiras de assentos azuis estão organizadas em linhas retas, algumas pessoas estão sentadas enquanto outras estão em pé." />
           </div>
 
           <div className="notice-text">

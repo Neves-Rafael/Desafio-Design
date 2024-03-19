@@ -33,10 +33,10 @@ export function Header(){
               <p>Menu</p>
             </div>
 
-            <img src={SenadoNoticiasLogo} alt="" />
+            <img src={SenadoNoticiasLogo} alt="Logo da página Senado notícias" />
 
             <div className="search">
-              <img src={SenadoFederalLogo} alt="" />
+              <img src={SenadoFederalLogo} alt="Logo do Senado Federal" />
               <SearchInput/>
             </div>
           </div>
@@ -53,7 +53,7 @@ export function Header(){
 
       <HeaderMobile>
         <IoMenu size={32} />
-        <img src={SenadoNoticiasLogo} alt="" />
+        <img src={SenadoNoticiasLogo} alt="Logo da página Senado notícias" />
         <IoSearch size={22} />
       </HeaderMobile>
     </Container>

@@ -8,7 +8,7 @@ export function Footer(){
   return(
     <Container>
       <div className="footer-content">
-        <img src={SenadoFederalLogo} alt="" />
+        <img src={SenadoFederalLogo} alt="Logo do senado Federal" />
         <SearchInput/>
         <Links>
           <a href="#">Fotos</a>
@@ -19,7 +19,7 @@ export function Footer(){
           <a href="#">Atos 8 de janeiro</a>
           <a href="#">Notícias</a>
           <a href="#">Especiais</a>
-          <img className="senado-logo" src={SenadoFederalLogo} alt="" />
+          <img className="senado-logo" src={SenadoFederalLogo} alt="Logo do senado Federal" />
         </Links>
 
         <Social>
